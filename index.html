@@ -8,20 +8,95 @@
 <body>
 <h1>Formulário</h1>
 <br>
-
+<fieldset>
 <form action="https://www.w3schools.com/action_page.php">
 <label for="data">Data:</label>
+<input type="date" id="data" name="data" value="">
 <br>
-<input type="date" id="data">
+<fieldset>
+<legend>Dados de acesso:</legend>
 <br>
-<label for="fname">First name:</label>
+<label for="User">Usuario:</label>
+<input type="text" id="User" name="User" value="">
 <br>
-<input type="text" id="fname" name="fname" value="John">
+<label for="Pass">Senha:</label>
+<input type="password" id="Pass" name="Pass" value="">
+</fieldset>
 <br>
-<label for="lname">Last name:</label>
+<fieldset>
+<legend>Dados pessoais:</legend>
 <br>
-<input type="text" id="lname" name="lname" value="Doe">
-<br><br>
+<label for="Cname">Nome Completo:</label>
+<input type="text" id="Cname" name="Cname" value="">
+<br>
+<label for="Adress">Endereço:</label>
+<input type="text" id="Adress" name="Adress" value="">
+<br>
+<label for="Number">Numero de Telefone:</label>
+<input type="number" id="Number" name="Number" value="">
+<br>
+<label for="complement">Complemento de Endereço:</label>
+<input type="text" id="complement" name="complement" value="">
+<br>
+<input list="Cities" id="Cities"><br>
+<datalist>
+<option value="Sorocaba">Sorocaba</option>
+<option value="Votorantim">Votorantim</option>
+<option value="Itapetininga">Itapetininga</option>
+</datalist><br>
+<label for="State">Escolha o estado de nascença:</label>
+<br>
+<select name="State" id="State">
+<option value="State">São Paulo</option>
+<option value="State">Rio de Janeiro</option>
+<option value="State">Minas Gerais</option>
+</select>
+<br>
+<label for="CEP">Digite seu CEP:</label>
+<input type="number" id="CEP" name="CEP" value="">
+</fieldset>
+<br>
+<fieldset>
+<legend>Gênero:</legend>
+<br>
+<input type="radio" id="Masc" name="Gender" value="Masculino">
+<label for="Masc">Masculino</label>
+<br>
+<input type="radio" id="Fem" name="Gender" value="Feminino">
+<label for="Fem">Feminino</label>
+<br>
+<input type="radio" id="NC" name="Gender" value="Prefiro não comentar">
+<label for="NC">Prefiro não comentar</label>
+</fieldset>
+<br>
+<fieldset>
+<legend>Cursos:</legend>
+<br>
+<input type="checkbox" id="curso1" name="Curso" value="ADS">
+<label for="curso1">ADS</label>
+<br>
+<input type="checkbox" id="curso2" name="Curso" value="Jogos">
+<label for="curso2">Jogos</label>
+<br>
+<input type="checkbox" id="curso3" name="Curso" value="Gestão de TI">
+<label for="curso3">Gestão de TI</label>
+<br>
+<input type="checkbox" id="curso4" name="Curso" value="Banco de Dados">
+<label for="curso4">Banco de Dados</label>
+</fieldset>
+<br>
+<fieldset>
+<legend>Modelo:</legend>
+<br>
+<input type="radio" id="pre" name="Modelo" value="Presencial">
+<label for="pre">Presencial</label>
+<br>
+<input type="checkbox" id="ead" name="Modelo" value="EAD">
+<label for="ead">EAD</label>
+<br>
+<input type="checkbox" id="semi" name="Modelo" value="Semi presencial">
+<label for="semi">Semi presencial</label>
+</fieldset><br><br>
 <input type="submit" value="Submit">
 </form>
 </body>
