@@ -1,0 +1,193 @@
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 110px;
+}
+
+#cat
+{
+    border: 10px solid yellow;
+}
+
+#camel
+{
+    border: 10px solid green;
+}
+
+#horse
+{
+    border: 10px solid red;
+}
+
+.fase1{
+    display: flex;
+    height: 97vh;
+    justify-content: flex-end;
+}
+
+.fase2{
+    display: flex;
+    height: 97vh;
+    justify-content: center;
+}
+
+.fase3{
+    display: flex;
+    height: 97vh;
+    justify-content: space-around;
+}
+
+.fase4{
+    display: flex;
+    height: 97vh;
+    justify-content: space-between;
+}
+
+.fase5{
+    display: flex;
+    height: 97vh;
+    align-items: flex-end;
+}
+
+.fase6{
+    display: flex;
+    height: 97vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fase7{
+    display: flex;
+    height: 97vh;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.fase8{
+    display: flex;
+    height: 97vh;
+    flex-direction: row-reverse;
+}
+
+.fase9{
+    display: flex;
+    height: 97vh;
+    flex-direction: column;
+}
+
+.fase10{
+    display: flex;
+    height: 97vh;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.fase11{
+    display: flex;
+    height: 97vh;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.fase12{
+    display: flex;
+    height: 97vh;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+.fase13{
+    display: flex;
+    height: 97vh;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#fase14{
+    display: flex;
+    height: 97vh;
+}
+
+.gato{
+    order: 1;
+}
+
+#fase15{
+    display: flex;
+    height: 97vh;
+}
+
+.cavalo{
+    order: -3;
+}
+
+.fase16{
+    display: flex;
+    height: 97vh;
+    align-items: flex-start;
+}
+
+.gato2{
+    align-self: flex-end;
+}
+
+.fase17{
+    display: flex;
+    height: 97vh;
+    align-items: flex-start;
+}
+
+.gato3{
+    align-self: flex-end;
+    order: 2;
+}
+
+.fase18{
+    display: flex;
+    height: 97vh;
+    flex-wrap: wrap;
+}
+
+.fase19{
+    display: flex;
+    height: 97vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.fase20{
+    display: flex;
+    height: 97vh;
+    flex-flow: column wrap;
+}
+
+.fase21{
+    display: flex;
+    height: 97vh;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.fase22{
+    display: flex;
+    height: 97vh;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+.fase23{
+    display: flex;
+    height: 97vh;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column-reverse;
+}
+
+.fase24{
+    display: flex;
+    height: 97vh;
+    flex-flow: column-reverse wrap-reverse;
+    justify-content: center;
+    align-content: space-between;
+}

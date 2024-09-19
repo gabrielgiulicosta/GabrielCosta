@@ -1,0 +1,15 @@
+a{
+    border: solid green;
+    color: black;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+a:hover{
+    color: green;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+}
