@@ -29,10 +29,17 @@ h1{
     font-family: "Red Rose", serif;
     margin-bottom: 16px;
     font-size: 36px;
+<<<<<<< HEAD
     font-weight: 700;
     line-height: 48px;
     color: #091133;
     text-shadow: #000000;
+=======
+    font-weight: 400;
+    line-height: 48px;
+    color: #091133;
+    ;
+>>>>>>> 806a0888c92cc9e4e4b2ece1d35ca6f589e95680
 }
 
 p{
@@ -48,21 +55,29 @@ p{
 .botao{
 display: flex;
 justify-content: center;
+<<<<<<< HEAD
 margin-top: 86px;
+=======
+>>>>>>> 806a0888c92cc9e4e4b2ece1d35ca6f589e95680
 }
 
 button{
     width: 190px;
     height: 36px;
+<<<<<<< HEAD
     border: 3px solid #000000;
     font-weight: 500;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 26px;
+=======
+    border: 1px solid #000000;
+>>>>>>> 806a0888c92cc9e4e4b2ece1d35ca6f589e95680
 }
 
 .b1{
     margin-left: 29px;
+<<<<<<< HEAD
     background-color: white;
     color: #000000;
 }
@@ -70,4 +85,6 @@ button{
 .b2{
     background-color: #111B47;
     color: white;
+=======
+>>>>>>> 806a0888c92cc9e4e4b2ece1d35ca6f589e95680
 }
