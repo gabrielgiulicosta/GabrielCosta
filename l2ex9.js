@@ -1,9 +1,12 @@
 let endereço ={
-    "Nome": "Doritos",
-    "Preço": 15.90,
-    "Quantidade": 24,
+    "Rua": "Rua Florença",
+    "Numero": 558,
+    "Bairro": "Bondergard",
+    "Cidade": "Sorocaba",
 
-    CalcularTotal : function(){
-        return this.Preço*this.Quantidade;
+    MostrarInformaçoes : function(){
+        return this.Rua +"\n"+ this.Numero +"\n"+ this.Bairro +"\n"+ this.Cidade;
     }
 };
+
+console.log(endereço.MostrarInformaçoes());
