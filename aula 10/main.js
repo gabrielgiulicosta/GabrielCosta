@@ -1,37 +1,37 @@
-//function display(msg){
-//    console.log(msg);
-//}
+let file = 'https://6724b5a4c39fedae05b271f9.mockapi.io/Animal';
 
-//function soma(num1,num2){
-//    display (num1 + num2);
-//}
+function popularLista() {
+    let file = 'https://6724b5a4c39fedae05b271f9.mockapi.io/Animal';
 
-//soma(2, 3);
+    fetch(file)
+    .then(response => response.json())
+    .then(myArray => {
+        const lista = document.getElementById('listaAnimais');
+        myArray.forEach(item => {
+            const li = document.createElement('li');
+            li.textContent = `Nome: ${item.name}, Idade: ${item.idade}, Raça: ${item.raca}, ID: ${item.id}`;
+            lista.appendChild(li);
+        });
+    })
+    .catch(error => {
+        console.error('Dados corompidos ou não encontrados', error);
+    });
+}
 
-//let file = "db.json";
+function add() {
+    let file = 'https://6724b5a4c39fedae05b271f9.mockapi.io/Animal';
 
-//fetch(file)
-    //.then(response => response.json);
-    //.then(obj => {
-        //.log(obj);
-        //document.querySelector('#txt').innerHTML = obj.nome;
-    //});
-
-
-
-    //let file = "db.txt";
-
-    //fetch(file)
-        //.then(response => response.txt);
-        //.then(text => console.log(text));
-
-
-
-        let file = "https://6724b5a4c39fedae05b271f9.mockapi.io/clientes";
-
-        fetch(file)
-            .then(response => response.json);
-            .then(MyArray => {
-                console.log(MyArray);
-                document.querySelector('#txt').innerHTML = MyArray[2].nome;
-            });
+    fetch(file, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    })
+    .then(response => response.json())
+    .then(myArray => {
+        console.log(myArray);
+    })
+    .catch(error => {
+        console.error('Ocorreu um erro no cadastro', error);
+    });
+}
